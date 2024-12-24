@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module animalEasy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>animalEasy</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Clilys%5Cgroup77%5Canimaleasy.py">c:\users\lilys\group77\animaleasy.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="pydoc.html">pydoc</a><br>
+</td><td width="25%" valign=top><a href="pygame.html">pygame</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="animalEasy.html#AnimalEasy">AnimalEasy</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AnimalEasy">class <strong>AnimalEasy</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AnimalEasy">AnimalEasy</a>(screen,&nbsp;animals,&nbsp;game_state)<br>
+&nbsp;<br>
+Author:&nbsp;Lily&nbsp;So<br>
+This&nbsp;class&nbsp;was&nbsp;created&nbsp;to&nbsp;display&nbsp;the&nbsp;easy&nbsp;level&nbsp;of&nbsp;the&nbsp;animal&nbsp;typing&nbsp;safari&nbsp;game.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="AnimalEasy-__init__"><strong>__init__</strong></a>(self, screen, animals, game_state)</dt><dd><tt>This&nbsp;method&nbsp;initializes&nbsp;the&nbsp;<a href="#AnimalEasy">AnimalEasy</a>&nbsp;class.<br>
+:param&nbsp;screen:&nbsp;the&nbsp;screen&nbsp;to&nbsp;display&nbsp;the&nbsp;game&nbsp;on<br>
+:param&nbsp;animals:&nbsp;the&nbsp;dictionary&nbsp;of&nbsp;animals&nbsp;and&nbsp;their&nbsp;data<br>
+:param&nbsp;game_state:&nbsp;the&nbsp;current&nbsp;state&nbsp;of&nbsp;the&nbsp;game</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-check_answer"><strong>check_answer</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;checks&nbsp;if&nbsp;the&nbsp;user's&nbsp;answer&nbsp;is&nbsp;correct&nbsp;or&nbsp;not.</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-display_answer"><strong>display_answer</strong></a>(self, message, colour)</dt><dd><tt>This&nbsp;method&nbsp;displays&nbsp;the&nbsp;answer&nbsp;of&nbsp;the&nbsp;user.<br>
+:param&nbsp;message:&nbsp;the&nbsp;message&nbsp;to&nbsp;display<br>
+:param&nbsp;colour:&nbsp;the&nbsp;colour&nbsp;of&nbsp;the&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-mouseover"><strong>mouseover</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;checks&nbsp;if&nbsp;the&nbsp;user&nbsp;hovers&nbsp;over&nbsp;an&nbsp;option.</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-multiple_choice"><strong>multiple_choice</strong></a>(self, animal_keys)</dt><dd><tt>This&nbsp;method&nbsp;creates&nbsp;a&nbsp;multiple&nbsp;choice&nbsp;options&nbsp;for&nbsp;the&nbsp;user.<br>
+:param&nbsp;animal_keys:&nbsp;list&nbsp;of&nbsp;animal&nbsp;keys</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-next_question"><strong>next_question</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;changes&nbsp;the&nbsp;question&nbsp;to&nbsp;the&nbsp;next&nbsp;question&nbsp;by&nbsp;incrementing&nbsp;the&nbsp;list&nbsp;index.</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-run"><strong>run</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;runs&nbsp;the&nbsp;game&nbsp;and&nbsp;displays&nbsp;the&nbsp;interface&nbsp;of&nbsp;the&nbsp;easy&nbsp;game.</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-update_score"><strong>update_score</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;updates&nbsp;the&nbsp;score&nbsp;of&nbsp;the&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="AnimalEasy-user_input"><strong>user_input</strong></a>(self, event, save)</dt><dd><tt>This&nbsp;method&nbsp;handles&nbsp;user&nbsp;input&nbsp;for&nbsp;the&nbsp;game.<br>
+:param&nbsp;event:&nbsp;the&nbsp;event&nbsp;that&nbsp;the&nbsp;user&nbsp;inputs<br>
+:param&nbsp;save:&nbsp;the&nbsp;save&nbsp;file&nbsp;to&nbsp;save&nbsp;the&nbsp;game</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

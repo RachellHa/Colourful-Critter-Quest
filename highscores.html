@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module highscores</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>highscores</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cethan%5C.ssh%5Cgroup77%5Chighscores.py">c:\users\ethan\.ssh\group77\highscores.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="pydoc.html">pydoc</a><br>
+</td><td width="25%" valign=top><a href="pygame.html">pygame</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="highscores.html#Highscores">Highscores</a>
+</font></dt><dt><font face="helvetica, arial"><a href="highscores.html#createText">createText</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Highscores">class <strong>Highscores</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Highscores">Highscores</a>(screen,&nbsp;game_state)<br>
+&nbsp;<br>
+Authors:&nbsp;Ethan&nbsp;Lui,&nbsp;Lily&nbsp;So<br>
+Purpose:&nbsp;To&nbsp;create&nbsp;and&nbsp;display&nbsp;the&nbsp;highscores&nbsp;screen.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Highscores-__init__"><strong>__init__</strong></a>(self, screen, game_state)</dt><dd><tt>&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;Method/Function&nbsp;that&nbsp;is&nbsp;run&nbsp;on&nbsp;<a href="builtins.html#object">object</a>&nbsp;generation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Creates&nbsp;and&nbsp;initializes&nbsp;objects.<br>
+:param&nbsp;screen:&nbsp;The&nbsp;screen&nbsp;that&nbsp;is&nbsp;being&nbsp;used/updated.<br>
+:param&nbsp;game_state:&nbsp;The&nbsp;state&nbsp;of&nbsp;the&nbsp;game.</tt></dd></dl>
+
+<dl><dt><a name="Highscores-run"><strong>run</strong></a>(self)</dt><dd><tt>&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;function&nbsp;is&nbsp;used&nbsp;for&nbsp;displaying&nbsp;all&nbsp;of&nbsp;the&nbsp;highscores&nbsp;objects&nbsp;that&nbsp;were&nbsp;created<br>
+&nbsp;&nbsp;&nbsp;&nbsp;during&nbsp;<a href="builtins.html#object">object</a>&nbsp;generation.<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Highscores-user_input"><strong>user_input</strong></a>(self, event)</dt><dd><tt>&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;function&nbsp;is&nbsp;used&nbsp;to&nbsp;handle&nbsp;user&nbsp;input.<br>
+:param&nbsp;event:&nbsp;The&nbsp;event&nbsp;that&nbsp;is&nbsp;being&nbsp;passed&nbsp;and&nbsp;that&nbsp;will&nbsp;be&nbsp;handled.<br>
+:return:&nbsp;None,&nbsp;Void.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="createText">class <strong>createText</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#createText">createText</a>(font,&nbsp;text,&nbsp;color1,&nbsp;color2,&nbsp;xcenter,&nbsp;yTop)<br>
+&nbsp;<br>
+Author:&nbsp;Ethan&nbsp;Lui<br>
+Purpose:&nbsp;Simplify&nbsp;the&nbsp;create&nbsp;of&nbsp;text&nbsp;objects&nbsp;to&nbsp;display&nbsp;in&nbsp;pygame.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="createText-__init__"><strong>__init__</strong></a>(self, font, text, color1, color2, xcenter, yTop)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

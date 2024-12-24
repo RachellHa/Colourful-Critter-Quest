@@ -1,0 +1,44 @@
+git config --global user.name "Your Name"
+git config --global user.name "user@uwo.ca"
+
+You should be at C:\Users\User\
+If you have already dealt with ssh keys, you have a .ssh directory.
+cd .ssh
+
+You can back up your ssh keys with
+mkdir key_backup
+copy id_ed25519* key_backup
+
+If you don't have a directory,
+mkdir .ssh
+cd .ssh
+
+ssh-keygen -t ed25519 -C "user@uwo.ca"
+
+Overwrite, yes.
+I just used empty.
+
+Once you are done, type:
+clip < id_ed25519.pub
+
+Move to bit bucket, top right, profile, manage account
+go to SSH keys
+paste what you copied in there and thats it.
+Do the optional things if you wish to do them.
+Add the key.
+
+Once you are done, you can go back to the repository
+On the left side, there is an icon called clone.
+Click it, and copy the link it shows.
+Go back to your terminal/CMD and type
+git clone pasteyourURLhere
+You can paste by click the window frame --> Edit --> paste.
+yes to continue connecting
+
+Congrats, if it worked you now have a folder under your User that is the repo.
+Go to your IDE and open that folder up.
+You are green and good to go.
+
+https://education.github.com/git-cheat-sheet-education.pdf
+A git instruction sheet thing for you to use.
+Happy add, commit, push, merge, pulling!

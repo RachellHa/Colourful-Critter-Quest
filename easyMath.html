@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module easyMath</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>easyMath</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cethne%20au%5Cdesktop%5Crepositories2212%5Cgroup77%5Ceasymath.py">c:\users\ethne au\desktop\repositories2212\group77\easymath.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="pydoc.html">pydoc</a><br>
+</td><td width="25%" valign=top><a href="pygame.html">pygame</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="easyMath.html#EasyMath">EasyMath</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="EasyMath">class <strong>EasyMath</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#EasyMath">EasyMath</a>(screen,&nbsp;game_state)<br>
+&nbsp;<br>
+Author:&nbsp;Rachel&nbsp;Ha,&nbsp;Lily&nbsp;So<br>
+Purpose:&nbsp;Class&nbsp;for&nbsp;easy&nbsp;level&nbsp;of&nbsp;the&nbsp;Math&nbsp;Mania&nbsp;game,&nbsp;runs&nbsp;10&nbsp;questions<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="EasyMath-__init__"><strong>__init__</strong></a>(self, screen, game_state)</dt><dd><tt>Initialize&nbsp;<a href="#EasyMath">EasyMath</a>&nbsp;class.<br>
+Randomizes&nbsp;equation&nbsp;question:&nbsp;addition&nbsp;and&nbsp;subtraction.<br>
+Loads&nbsp;images&nbsp;and&nbsp;sounds&nbsp;from&nbsp;files.&nbsp;<br>
+&nbsp;<br>
+:param&nbsp;screen:&nbsp;The&nbsp;game&nbsp;screen&nbsp;surface:<br>
+:param&nbsp;game_state:&nbsp;The&nbsp;game&nbsp;state&nbsp;manager:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-always_positive"><strong>always_positive</strong></a>(self)</dt><dd><tt>Swap&nbsp;numbers&nbsp;so&nbsp;the&nbsp;answer&nbsp;is&nbsp;always&nbsp;positive.<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-answer"><strong>answer</strong></a>(self)</dt><dd><tt>Calculate&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;equation<br>
+:return:&nbsp;answer</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-check_answer"><strong>check_answer</strong></a>(self)</dt><dd><tt>Check&nbsp;if&nbsp;the&nbsp;selected&nbsp;option&nbsp;matches&nbsp;the&nbsp;correct&nbsp;answer<br>
+:return:&nbsp;True&nbsp;if&nbsp;correct,&nbsp;false&nbsp;otherwise</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-display_text"><strong>display_text</strong></a>(self, message, colour)</dt><dd><tt>Display&nbsp;answer&nbsp;on&nbsp;screen<br>
+:param&nbsp;message:<br>
+:param&nbsp;colour:&nbsp;Colour&nbsp;of&nbsp;text</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-get_random_image1"><strong>get_random_image1</strong></a>(self)</dt><dd><tt>Get&nbsp;a&nbsp;random&nbsp;image&nbsp;from&nbsp;the&nbsp;dictionary<br>
+:return:&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-get_random_image2"><strong>get_random_image2</strong></a>(self)</dt><dd><tt>Get&nbsp;a&nbsp;random&nbsp;image&nbsp;from&nbsp;the&nbsp;dictionary<br>
+:return:&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-mouseover"><strong>mouseover</strong></a>(self)</dt><dd><tt>Handle&nbsp;mouse&nbsp;hover&nbsp;events<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-multiple_choice"><strong>multiple_choice</strong></a>(self)</dt><dd><tt>Generate&nbsp;multiple&nbsp;choice&nbsp;options<br>
+Get&nbsp;3&nbsp;other&nbsp;options&nbsp;then&nbsp;add&nbsp;the&nbsp;value&nbsp;of&nbsp;self.<strong>eqn</strong>&nbsp;answer&nbsp;into&nbsp;list<br>
+:return:&nbsp;generated&nbsp;options</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-next_question"><strong>next_question</strong></a>(self)</dt><dd><tt>Generate&nbsp;a&nbsp;new&nbsp;question.<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-run"><strong>run</strong></a>(self)</dt><dd><tt>Creates&nbsp;UI&nbsp;for&nbsp;the&nbsp;game&nbsp;and&nbsp;run&nbsp;the&nbsp;game.<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-update_score"><strong>update_score</strong></a>(self)</dt><dd><tt>Update&nbsp;player's&nbsp;score<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="EasyMath-user_input"><strong>user_input</strong></a>(self, event, save)</dt><dd><tt>Handle&nbsp;user&nbsp;input&nbsp;including&nbsp;button&nbsp;pressing<br>
+:param&nbsp;event:<br>
+:param&nbsp;save:<br>
+:return:</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
